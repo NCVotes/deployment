@@ -16,7 +16,7 @@ ssh_dir: "/home/{{ project_name }}/.ssh"
 ssl_dir: "{{ root_dir }}/ssl"
 python_version: "3.6"
 repo:
-    url: "git@github.com:reesenewslab/ncvoter.git"
+    url: "git@github.com:NCVotes/voters-ingestor.git"
     branch: "master"
 pg_version: "9.6"
 app_minions: "{{ groups['ncvoter'] }}"
