@@ -7,6 +7,10 @@ users:
   - name: bill10
     public_keys:
       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnd98D0+Nyjra1XDJJR9u5dC1tr29fdqWJ9hSm7CL4RtUJ1OLNyUVpeLlpc1Xsi71UHm2vadwPSgrAc/UlmQ1qUFmXpYYllKtxusSyqSs5lKpE+Ju95xSFm+PslJH99kIytadJlS41nwH+oqffGuueiivHIBK5mAhRAFLv9VJusu3U4jkEfm/8fgJxyVGu3SEwag3G+0BTiIMRg4e5AHfib7y88y+/L3B878X6AmVcHfQPaw99jKuzkCKro8nrEz9IMUYDWn+w0ULX2SlfZ2r+rBjHlclKbYp6r6DSsIl2FUexIFOTdkLkrZePrxVvHp31U6+j1Vsid94RfSM2ksk7 Bill@Bill-Desktop"
+  - name: rtburg
+    public_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLagMMw52GqIZow17BksLe47vJ8bhace56+EnPEUFCEiNkZ9ecn/z6kGYDLj0qhKl+gK1WZwTm5xwh1YH5CEgS1ciOv9E5biFcD9rUSqKxs7U51XY+MQk1VvBHsAubOn/I1srN6ZJnsbhcwjNg7pKyxZk9JGRtic14HnI1rEJIWpQuys8+H25o1dqqXQ9457bAxdzSONZ5CXnkoKcBU8VxHROTX+bbwSOXWvBLZd/Bnt9OJ9jA2v1yWcoG6loyQL/FDdShfxSOwesWQgvidJr3NEISnJ6M8ojVythtAlWszovHypmELD2l7MysGQnMzS+shT2eV4NFRwH6zbZ4x6wn ryan.thornburg@unc.edu"
+
 root_dir: "/var/www/{{ project_name }}"
 log_dir: "{{ root_dir }}/log"
 public_dir: "{{ root_dir }}/public"
